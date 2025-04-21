@@ -1,7 +1,7 @@
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
-import { Search, Shield, UserSearch, FileSearch, Fingerprint, Camera, ChevronRight, Star } from "lucide-react"
+import { Search, Shield, UserSearch, FileSearch, Fingerprint, Camera, ChevronRight, Star, Users, HeartPulse, Building } from "lucide-react"
 import DetectiveImage from "@/components/detective-images"
 
 export default function Home() {
@@ -67,35 +67,35 @@ export default function Home() {
           <div className="mx-auto grid max-w-5xl items-center gap-6 py-12 lg:grid-cols-3 lg:gap-12">
             {[
               {
-                icon: <UserSearch className="h-10 w-10 text-primary" />,
-                title: "Missing Persons",
-                description: "Specialized techniques to locate missing individuals with speed and discretion.",
-              },
-              {
-                icon: <Shield className="h-10 w-10 text-primary" />,
-                title: "Corporate Security",
-                description: "Comprehensive security solutions to protect your business interests.",
-              },
-              {
-                icon: <FileSearch className="h-10 w-10 text-primary" />,
-                title: "Background Checks",
-                description: "Thorough investigation of personal and professional histories.",
-              },
-              {
-                icon: <Fingerprint className="h-10 w-10 text-primary" />,
-                title: "Forensic Analysis",
-                description: "Expert examination of evidence using cutting-edge technology.",
-              },
-              {
                 icon: <Camera className="h-10 w-10 text-primary" />,
                 title: "Surveillance",
                 description: "Discreet monitoring and documentation of activities and behaviors.",
+                link: "/services/surveillance"
               },
               {
                 icon: <Search className="h-10 w-10 text-primary" />,
-                title: "Private Investigations",
+                title: "Private Investigation",
                 description: "Customized investigative services for personal and legal matters.",
+                link: "/services/private-investigations"
               },
+              {
+                icon: <Users className="h-10 w-10 text-primary" />,
+                title: "Marital Investigation",
+                description: "Discreet and thorough investigations for marital concerns with sensitivity and professionalism.",
+                link: "/services/marital-investigations"
+              },
+              {
+                icon: <HeartPulse className="h-10 w-10 text-primary" />,
+                title: "Post Matrimonial Investigation",
+                description: "Comprehensive investigations for issues arising after marriage, including infidelity and asset concealment.",
+                link: "/services/post-matrimonial-investigations"
+              },
+              {
+                icon: <Building className="h-10 w-10 text-primary" />,
+                title: "Corporate Investigation",
+                description: "Specialized investigations for corporate matters requiring professional expertise.",
+                link: "/services/corporate-cases"
+              }
             ].map((service, index) => (
               <div
                 key={index}
@@ -105,7 +105,7 @@ export default function Home() {
                 <h3 className="text-xl font-bold">{service.title}</h3>
                 <p className="text-muted-foreground text-center">{service.description}</p>
                 <Link
-                  href={`/services/${service.title.toLowerCase().replace(/\s+/g, "-")}`}
+                  href={service.link}
                   className="text-primary hover:underline inline-flex items-center"
                 >
                   Learn more <ChevronRight className="h-4 w-4 ml-1" />
