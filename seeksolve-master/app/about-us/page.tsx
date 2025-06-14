@@ -108,7 +108,7 @@ export default function AboutUs() {
               <Badge className="bg-primary hover:bg-primary" variant="secondary">
                 Our History
               </Badge>
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">13 Years of Investigative Excellence</h2>
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">13+ Years of Investigative Excellence</h2>
               <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                 From our humble beginnings to becoming an industry leader, our journey has been defined by dedication to
                 our clients and commitment to the truth.
@@ -130,13 +130,13 @@ export default function AboutUs() {
                   "Opened our second office and expanded our services to include corporate security and digital forensics.",
               },
               {
-                year: "2017",
+                year: "2018",
                 title: "Technology Integration",
                 description:
                   "Pioneered the use of advanced surveillance technology and digital investigation techniques in private detective work.",
               },
               {
-                year: "2018",
+                year: "2020",
                 title: "National Recognition",
                 description:
                   "Received the Indian Association of Private Detectives Award for Excellence in Private Investigation.",
