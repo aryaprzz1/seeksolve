@@ -47,7 +47,7 @@ export default function Footer() {
                 </Link>
               </Button>
               <Button variant="ghost" size="icon" className="text-green-500" asChild>
-                <Link href="https://wa.me/919619623730" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+                <Link href="https://wa.me/917304679756" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="20"

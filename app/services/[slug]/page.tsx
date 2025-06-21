@@ -551,7 +551,7 @@ export default function ServiceDetail({ params }: { params: { slug: string } }) 
                   Call Pradeep: 9619623730
                 </Button>
               </Link>
-              <Link href="https://wa.me/919619623730" target="_blank" rel="noopener noreferrer">
+              <Link href="https://wa.me/917304679756" target="_blank" rel="noopener noreferrer">
                 <Button size="lg" variant="secondary" className="bg-green-500 text-white hover:bg-green-600">
                   WhatsApp Us
                 </Button>

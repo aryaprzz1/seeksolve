@@ -20,7 +20,7 @@ export default function WhatsAppButton() {
     <>
       {isVisible && (
         <div className="fixed bottom-6 right-6 z-50 animate-bounce transition-all duration-300 hover:scale-110">
-          <Link href="https://wa.me/919619623730" target="_blank" rel="noopener noreferrer">
+          <Link href="https://wa.me/917304679756" target="_blank" rel="noopener noreferrer">
             <Button
               className="h-14 w-14 rounded-full bg-green-500 hover:bg-green-600 shadow-lg flex items-center justify-center"
               aria-label="Contact us on WhatsApp"

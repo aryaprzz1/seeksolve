@@ -148,7 +148,7 @@ export default function Contact() {
                     Send us a message on WhatsApp for a quick response to your inquiry.
                   </p>
                   <Button size="lg" className="w-full bg-green-500 hover:bg-green-600 text-white" asChild>
-                    <Link href="https://wa.me/919619623730" target="_blank" rel="noopener noreferrer">
+                    <Link href="https://wa.me/917304679756" target="_blank" rel="noopener noreferrer">
                       Chat on WhatsApp
                     </Link>
                   </Button>
@@ -231,7 +231,7 @@ export default function Contact() {
                 <Link href="tel:7304679756">Call Now: 7304679756</Link>
               </Button>
               <Button size="lg" variant="secondary" className="bg-green-500 text-white hover:bg-green-600" asChild>
-                <Link href="https://wa.me/919619623730" target="_blank" rel="noopener noreferrer">
+                <Link href="https://wa.me/917304679756" target="_blank" rel="noopener noreferrer">
                   WhatsApp Us
                 </Link>
               </Button>

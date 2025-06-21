@@ -109,7 +109,7 @@ export default function Header() {
           </Button>
 
           <Button variant="ghost" size="icon" className="hidden md:flex text-green-500" asChild>
-            <Link href="https://wa.me/919619623730" target="_blank" rel="noopener noreferrer">
+            <Link href="https://wa.me/917304679756" target="_blank" rel="noopener noreferrer">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="20"
