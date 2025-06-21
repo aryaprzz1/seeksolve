@@ -85,11 +85,6 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/services/forensic-analysis" className="text-muted-foreground hover:text-foreground">
-                  Forensic Analysis
-                </Link>
-              </li>
-              <li>
                 <Link href="/services/surveillance" className="text-muted-foreground hover:text-foreground">
                   Surveillance
                 </Link>
@@ -144,19 +139,17 @@ export default function Footer() {
               <li className="flex items-start space-x-3">
                 <Phone className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
                 <span className="text-muted-foreground">
-                  Pradeep Saini: 9619623730
-                  <br />
-                  Dilip Chauhan: 8850926281
+                  7304679756
                 </span>
               </li>
               <li className="flex items-start space-x-3">
                 <Mail className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
-                <span className="text-muted-foreground">seekproof@gmail.com</span>
+                <span className="text-muted-foreground">seekproof47@gmail.com</span>
               </li>
               <li className="flex items-start space-x-3">
                 <MapPin className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
                 <span className="text-muted-foreground">
-                  ROOM NO.16, JOSEPH D`SOUZA CHAWL,SHANKARWADI, W E HIGHWAY ROAD, JOGESHWARI (E) , MUMBAI .400060
+                  Office number -16 ,Joseph D'Souza compound, Mogra metro station ,shankarwadi Jogeshwari East , Near Western Express Highway ,Mumbai - 400060
                 </span>
               </li>
             </ul>

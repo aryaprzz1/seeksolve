@@ -58,11 +58,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h3 className="font-bold">Phone</h3>
-                    <p className="text-muted-foreground">
-                      Pradeep Saini: 9619623730
-                      <br />
-                      Dilip Chauhan: 8850926281
-                    </p>
+                    <p className="text-muted-foreground">7304679756</p>
                     <p className="text-sm text-muted-foreground">Available 24/7 for urgent cases</p>
                   </div>
                 </div>
@@ -73,7 +69,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h3 className="font-bold">Email</h3>
-                    <p className="text-muted-foreground">seekproof@gmail.com</p>
+                    <p className="text-muted-foreground">seekproof47@gmail.com</p>
                     <p className="text-sm text-muted-foreground">We respond within 24 hours</p>
                   </div>
                 </div>
@@ -84,9 +80,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h3 className="font-bold">Main Office</h3>
-                    <p className="text-muted-foreground">
-                      ROOM NO.16, JOSEPH D`SOUZA CHAWL,SHANKARWADI, W E HIGHWAY ROAD, JOGESHWARI (E) , MUMBAI .400060
-                    </p>
+                    <p className="text-muted-foreground">Office number -16 ,Joseph D'Souza compound, Mogra metro station ,shankarwadi Jogeshwari East , Near Western Express Highway ,Mumbai - 400060</p>
                     <p className="text-sm text-muted-foreground">By appointment only</p>
                   </div>
                 </div>
@@ -144,7 +138,7 @@ export default function Contact() {
                     Speak with one of our investigators immediately for urgent matters.
                   </p>
                   <Button size="lg" className="w-full" asChild>
-                    <Link href="tel:9619623730">Pradeep Saini: 9619623730</Link>
+                    <Link href="tel:7304679756">7304679756</Link>
                   </Button>
                 </div>
 
@@ -166,7 +160,7 @@ export default function Contact() {
                     Send us details about your case for a prompt response within 24 hours.
                   </p>
                   <Button size="lg" className="w-full" asChild>
-                    <Link href="mailto:seekproof@gmail.com">seekproof@gmail.com</Link>
+                    <Link href="mailto:seekproof47@gmail.com">seekproof47@gmail.com</Link>
                   </Button>
                 </div>
 
@@ -234,7 +228,7 @@ export default function Contact() {
             </div>
             <div className="flex flex-col gap-2 min-[400px]:flex-row">
               <Button size="lg" variant="secondary" className="bg-white text-primary hover:bg-white/90" asChild>
-                <Link href="tel:9619623730">Call Now: Pradeep Saini</Link>
+                <Link href="tel:7304679756">Call Now: 7304679756</Link>
               </Button>
               <Button size="lg" variant="secondary" className="bg-green-500 text-white hover:bg-green-600" asChild>
                 <Link href="https://wa.me/919619623730" target="_blank" rel="noopener noreferrer">
@@ -242,7 +236,7 @@ export default function Contact() {
                 </Link>
               </Button>
               <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10" asChild>
-                <Link href="mailto:seekproof@gmail.com">Email Us</Link>
+                <Link href="mailto:seekproof47@gmail.com">Email Us</Link>
               </Button>
             </div>
           </div>

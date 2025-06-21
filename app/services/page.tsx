@@ -165,12 +165,6 @@ export default function Services() {
       services: [
         {
           icon: <Fingerprint className="h-10 w-10 text-primary" />,
-          title: "Analysis",
-          description: "Expert examination of evidence using cutting-edge technology for legal proceedings.",
-          slug: "forensic-analysis",
-        },
-        {
-          icon: <Fingerprint className="h-10 w-10 text-primary" />,
           title: "Services",
           description: "Comprehensive forensic services including digital, document, and physical evidence analysis.",
           slug: "forensic-services",

@@ -109,35 +109,6 @@ const services = [
     slug: "background-checks",
   },
   {
-    icon: <Fingerprint className="h-10 w-10 text-primary" />,
-    title: " Analysis",
-    description:
-      "Our forensic specialists use cutting-edge technology to analyze evidence and digital data, providing crucial information for legal proceedings and investigations.",
-    longDescription:
-      "Our Forensic Analysis services employ scientific methods and advanced technology to examine and interpret evidence for legal and investigative purposes. Our team includes specialists in digital forensics, document examination, and audio/video analysis who can recover, analyze, and document evidence that might otherwise remain hidden. Whether you need to recover deleted data from a device, authenticate a document, or enhance surveillance footage, our forensic experts provide thorough analysis and clear documentation that can stand up to scrutiny in legal proceedings. We maintain strict chain-of-custody protocols to ensure the integrity of all evidence we handle.",
-    features: [
-      "Digital device forensics",
-      "Document examination",
-      "Audio/video enhancement and analysis",
-      "Data recovery services",
-      "Expert witness testimony",
-    ],
-    benefits: [
-      "Recovery of crucial evidence",
-      "Scientific verification of facts",
-      "Court-admissible documentation",
-      "Technical expertise for complex cases",
-      "Objective third-party analysis",
-    ],
-    caseStudy: {
-      title: "Recovering Critical Evidence from Damaged Device",
-      description:
-        "An attorney client in Bangalore needed to recover potentially case-changing evidence from a water-damaged mobile phone. Our digital forensics team was able to extract and restore the data, revealing text messages and photos that proved crucial to establishing the timeline in a civil litigation case, ultimately leading to a favorable settlement for our client.",
-    },
-    image: "/placeholder.svg?height=400&width=600",
-    slug: "forensic-analysis",
-  },
-  {
     icon: <Camera className="h-10 w-10 text-primary" />,
     title: "Surveillance",
     description:
