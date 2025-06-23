@@ -235,9 +235,9 @@ export default function Home() {
               </p>
             </div>
             <div className="flex flex-col gap-2 min-[400px]:flex-row">
-              <Link href="tel:9619623730">
+              <Link href="tel:7304679756">
                 <Button size="lg" variant="secondary" className="bg-white text-primary hover:bg-white/90">
-                  Call Now: 9619623730
+                  Call Now: 7304679756
                 </Button>
               </Link>
               <Link href="https://wa.me/917304679756" target="_blank" rel="noopener noreferrer">
